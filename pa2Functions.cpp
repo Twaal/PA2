@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 #include <fstream>
+#include <time.h>
+#include <stdlib.h>
 #include "pa2Functions.h"
 ///// ENTRIES is the number of calculations allowed /////
 const int ENTRIES = 10;

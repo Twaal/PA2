@@ -74,7 +74,7 @@ int main(){
 			} else {
 				cout << "\n" << fibonacci(input1)<< "\n";
 				if (doWrite == true  && fid.is_open()){
-					fid << to_string(fibonacci(input1))<< endl;
+				  fid <</* to_string*/ (fibonacci(input1))<< endl;
 					//fid.close();
 				} 
 			}
